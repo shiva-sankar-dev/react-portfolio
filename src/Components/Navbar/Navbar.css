@@ -50,3 +50,55 @@
         color: white;
         text-decoration: none;
     }
+    .nav-mob-close, .nav-mob-open{
+        display: none;
+    }
+
+    @media(max-width:768px) {
+
+
+        .nav-mob-open{
+            position: fixed;
+            right: 30px;
+            display: block;
+
+        }
+        .nav-mob-close{
+            position: relative;
+            display: block;
+            top: 30px;
+            left: 300px;
+            /* right: 30px; */
+            
+        }
+        .nav-menu{
+            flex-direction: column;
+            gap: 20px;
+            align-items: start;
+            width: 350px;
+            height: 100%;
+            z-index: 2;
+            position: fixed;
+            transition: right 0.5s;
+            top: 0;
+            background-color: #313131;
+            right:-350px;
+        }
+
+        .nav-menu li {
+            padding: 7px 50px;
+        }
+
+    }
+
+    @media(max-width:768px){
+        .navbar{
+            height: 30px;
+        }
+    }
+
+    @media(max-width:480px){
+        .navbar{
+            height: 23px;
+        }
+    }

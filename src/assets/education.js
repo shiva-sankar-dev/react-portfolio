@@ -4,7 +4,7 @@ const education_data = [
         year:"2018 - 2020",
         class:"Plus two Computer Science",
         place:"KPEHSS - Kayakodi,Calicut",
-        string:"Diligent software engineer with 5+ years of experience in commercial application and software development. Eager to join Cyclone Inc."
+        string:"Studied the fundamentals of computer science at KPEHSS, focusing on programming and problem-solving."
 
     },
     {
@@ -12,7 +12,7 @@ const education_data = [
         year:"2020 - 2023",
         class:"Bsc.Computer Science",
         place:"Sree Narayana College - Vatakara,Calicut",
-        string:"Diligent software engineer with 5+ years of experience in commercial application and software development. Eager to join Cyclone Inc."
+        string:"Completed a project on public complaint sorting to help users file and resolve issues efficiently."
 
     },
     {
@@ -20,7 +20,7 @@ const education_data = [
         year:"Oct 23 - Apr 24",
         class:"Python Full Stack Development",
         place:"LCC - Kochi,Ernakulam",
-        string:"Diligent software engineer with 5+ years of experience in commercial application and software development. Eager to join Cyclone Inc."
+        string:"Learned HTML, CSS, Bootstrap, JavaScript, Python, and Django to build full-stack web applications."
 
     }
 ]

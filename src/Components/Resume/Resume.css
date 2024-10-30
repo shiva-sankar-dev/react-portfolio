@@ -1,4 +1,4 @@
-
+    
 /* .resume-main{
     background-color: #32323221;
 
@@ -8,10 +8,11 @@
 
     align-items: center;
     gap: 30px;
-    margin: 80px 170px;
+    margin: 80px 80px;
     /* padding-bottom: 100px; */
     /* background-color: red; */
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
+    padding-top: 50px;
     /* height: 100vh; */
 }
 

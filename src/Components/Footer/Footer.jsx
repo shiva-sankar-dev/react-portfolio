@@ -3,6 +3,7 @@ import './Footer.css'
 import linkedin from '../../assets/linkedin.svg'
 import github from '../../assets/github.svg'
 import instagram from '../../assets/instagram.svg'
+import facebook from '../../assets/facebook.svg'
 
 const Footer = () => {
     return (
@@ -17,17 +18,17 @@ const Footer = () => {
                     </div>
                     <div className="footer-top-right">
                         <div className="footer-social-media">
-                            <img src={linkedin} alt="" />
+                            <a href="https://www.linkedin.com/in/shiva-sankar-qw/"><img src={linkedin} alt="" /></a>
                         </div>
                         <div className="footer-social-media">
-                            <img src={github} alt="" />
+                            <a href="https://github.com/shiva-sankar-dev"><img src={github} alt="" /></a>
                         </div>
                         <div className="footer-social-media">
-                            <img src={instagram} alt="" />
+                            <a href="https://www.instagram.com/shivah_________/"><img src={instagram} alt="" /></a>
                         </div>
-                        {/* <div className="footer-social-media">
-
-                    </div> */}
+                        <div className="footer-social-media">
+                            <a href="https://m.facebook.com/shiva.sankar.718689/"><img src={facebook} alt="" /></a>
+                        </div>
                     </div>
                 </div>
             </div>

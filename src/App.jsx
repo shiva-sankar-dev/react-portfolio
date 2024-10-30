@@ -10,15 +10,15 @@ function App() {
 
   return(
     <>
-      <div className="background-img">
+      {/* <div className="background-img">
         <Navbar/>
         <Hero/>
-      </div>
+      </div> */}
       <About/>
-      <Resume/>
+      {/* <Resume/>
       <MyWork/>
       <Contact/>
-      <Footer/>
+      <Footer/> */}
     </>
   );
 }

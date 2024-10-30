@@ -3,6 +3,7 @@ import React from 'react'
 import mywork_data from '../../assets/mywork_data'
 import arrow_img from '../../assets/arrow_img.jpg'
 
+
 const MyWork = () => {
     return (
         <div id='work' className='mywork'>
@@ -15,11 +16,16 @@ const MyWork = () => {
                     return <div className="card-container">
                         <img key={index} src={work.work_img} alt="" />
                         <div className="name-icon">
-                            <p key={index}>{work.work_name}</p><p>git</p><p>git</p><p>git</p>
+                            <p key={index}>{work.work_name}</p>
+                            <p>
+                                {work.worked_with.map((logo, logoindex) => {
+                                    return <img className='tech-logos' key={logoindex} src={logo} alt="" />;
+                                })}
+                            </p>
                         </div>
                         <div className="demo-git">
-                            <p>DEMO</p>
-                            <p>GIT</p>
+                            <p>DEMO</p>                            
+                            <a href={work.git_link}><p key={index}>GIT</p></a>
                         </div>
                     </div>
                 })}

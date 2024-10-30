@@ -9,24 +9,26 @@
     /* padding-left: ; */
 }
 
-/* .profile-border{
+.profile-border{
     border-radius: 50%;
-    height: 450px;
+    height: 330px;
+    width: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(171, 171, 171);
-} */
+    background-color: rgba(220, 220, 220, 0.151);
+}
 
 .hero{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    /* gap: 35px; */
+    
+    /* gap: 75px; */
     padding-left: 300px;
     padding-right: 300px;
-    padding-top: 130px;
-    padding-bottom: 130px;
+    padding-top: 270px;
+    /* padding-bottom: 130px; */
 
 }
 
@@ -50,7 +52,6 @@
 
 .hero-about-me{
     line-height: 1.8;
-    padding-bottom: 13px;
 
 }
 
@@ -73,14 +74,144 @@
     padding: 12px 28px;
     border-radius: 50px;
     cursor: pointer;
-    transition: 0.3s;
+    transition:all 0.3s;
 
 }
 
 .more-about-me:hover{
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    transition: 0.4s ease-in-out;
+    background-color: rgba(41, 170, 5, 0.874);
 }
 
 .my-portfolio:hover{
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    transition: 0.4s ease-in-out;
+    background-color: rgba(152, 152, 152, 0.882);
 }
+
+.social-media-logos i{
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    text-decoration: none;
+    color: white;
+}
+
+.social-media-logos i:hover{
+    color:  rgb(41, 170, 5);
+}
+
+.social-media-logos{
+    padding: 20px 0px;
+    gap: 20px;
+}
+
+.more-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media(min-width:1025px){
+
+    .hero{
+        padding-top: 270px;
+        padding-left: 130px;
+        padding-right: 130px;
+        gap: 70px;
+
+    }
+
+
+    .hero-content{
+        max-width: 50%;
+    } 
+     
+    
+}
+
+
+@media(max-width:1024px){
+    .hero{
+
+        flex-direction: column;
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 90px;
+
+    
+    }
+    .hero-content{
+        max-width: 100%;
+    }
+
+    .profile-image{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    
+    .profile-border{
+        border-radius: 50%;
+        height: 230px;
+        width: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(220, 220, 220, 0.151);
+    }
+
+    .hero-content{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+}
+
+
+@media(max-width:557px){
+
+    .hero{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .more-about-me, .my-portfolio{
+        font-size: 1em;
+        padding: 8px 23px;
+    }
+}
+
+
+@media(max-width:480px){
+    .more-about-me, .my-portfolio{
+        font-size: 1em;
+        padding: 8px 29px;
+    }
+    .hero{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 80px;
+    }
+
+    .hero-content p{
+        font-size: 0.9em;
+    }
+
+    .hero-action{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-content{
+        padding-top:10px;
+    }
+     
+    
+}
+
