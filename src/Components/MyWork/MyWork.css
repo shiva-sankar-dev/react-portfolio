@@ -127,3 +127,53 @@
     text-decoration: none;
     color: white;
 }
+
+.logos-container{
+    display: flex;
+    flex-direction:row;
+}
+
+@media(min-width:1025px){
+
+    .about{
+        gap: 70px;
+
+    }
+}
+
+
+@media(max-width:1024px){
+    .resume{
+
+
+    }
+}
+
+@media(max-width:992px){
+
+    .mywork-container{
+
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:768px){
+    .mywork{
+        margin: 80px 90px;
+    }
+
+    
+    .mywork-container{
+
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+@media(max-width:480px){
+    .mywork{
+        margin: 20px 15px;
+        padding-top: 50px;
+    }
+}

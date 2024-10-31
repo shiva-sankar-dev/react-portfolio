@@ -10,15 +10,13 @@ function App() {
 
   return(
     <>
-      {/* <div className="background-img">
         <Navbar/>
         <Hero/>
-      </div> */}
       <About/>
-      {/* <Resume/>
+      <Resume/>
       <MyWork/>
       <Contact/>
-      <Footer/> */}
+      <Footer/>
     </>
   );
 }

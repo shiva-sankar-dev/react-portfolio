@@ -19,7 +19,7 @@ const Resume = () => {
                         <div className="eduction-container">
                             {education_data.map((edu_data, index) => {
                                 return <div className="edu-main">
-                                    <p className='set-class-no'><span className='edu-class' key={index}>{edu_data.class} <span className='edu-date' key={index}>{edu_data.year}</span> </span> <span key={index}>{edu_data.no}</span> </p>
+                                    <p className='set-class-no'><span className='edu-class' key={index}>{edu_data.class}</span> <span key={index}>{edu_data.no}</span> </p> <span className='edu-date' key={index}>{edu_data.year}</span> 
 
                                     <p className='edu-place' key={index}>{edu_data.place}</p>
                                     <p className='edu-details' key={index}>{edu_data.string}</p>
@@ -35,7 +35,7 @@ const Resume = () => {
                         <div className="work-container">
                             {work_data.map((exp_data, index) => {
                                 return <div className="work-main">
-                                    <p className='set-exp-no'><span className='work-company' key={index}>{exp_data.class} <span className='work-date' key={index}>{exp_data.year}</span> </span> <span key={index}>{exp_data.no}</span> </p>
+                                    <p className='set-exp-no'><span className='work-company' key={index}>{exp_data.class} </span> <span key={index}>{exp_data.no}</span> </p> <span className='work-date' key={index}>{exp_data.year}</span>
 
                                     <p className='work-place' key={index}>{exp_data.place}</p>
                                     <p className='work-details' key={index}>{exp_data.string}</p>

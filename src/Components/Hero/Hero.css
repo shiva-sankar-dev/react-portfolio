@@ -23,11 +23,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(45deg, #00000040, #413838);
+
     
     /* gap: 75px; */
     padding-left: 300px;
     padding-right: 300px;
-    padding-top: 270px;
+    /* padding-top: 200px; */
+    padding-bottom: 200px;
     /* padding-bottom: 130px; */
 
 }
@@ -140,6 +143,7 @@
         padding-left: 90px;
         padding-right: 90px;
         padding-top: 90px;
+        padding-bottom: 95px;
 
     
     }

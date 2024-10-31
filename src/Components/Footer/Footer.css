@@ -52,3 +52,73 @@
 .footer-social-media img:hover {
     transform: scale(1.1);
 }
+
+
+@media(min-width:1025px) {
+
+    .footer-top {
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+}
+
+
+@media(max-width:1024px) {
+
+    .footer {
+        margin: 80px 90px;
+    }
+    .footer-top {
+        gap: 90px;
+    }
+}
+
+@media(max-width:992px) {
+
+    .footer-top {
+        gap: 90px;
+    }
+
+}
+
+@media(max-width:768px) {
+    .footer {
+        margin: 80px 90px;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+}
+
+
+
+@media(max-width:480px) {
+    .footer {
+        margin: 20px 15px;
+        padding-top: 50px;
+    }
+
+    .footer-social-media img{
+        height: 18px;
+        width: 18px;
+    }
+    .footer-social-media{
+        height: 18px;
+        width: 18px;
+        padding: 12px;
+
+    }
+    .footer-top-left p {
+        font-size: 0.75em;
+    }
+
+    .footer-top-left h1{
+        font-size: 35px;
+    }
+
+}

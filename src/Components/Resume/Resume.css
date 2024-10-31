@@ -8,7 +8,7 @@
 
     align-items: center;
     gap: 30px;
-    margin: 80px 80px;
+    margin: 80px 80px; 
     /* padding-bottom: 100px; */
     /* background-color: red; */
     /* margin-bottom: 80px; */
@@ -93,7 +93,7 @@
 
 .edu-date, .work-date{
     background-color: rgba(192, 195, 195, 0.18);
-    font-size: 0.5em;
+    font-size: 0.6em;
     padding: 7px 30px;
     margin-left: 3px;
     border-radius: 50px;
@@ -110,4 +110,35 @@
 
 .edu-main:hover, .work-main:hover{
     transform: translate(10px ,-10px);
+}
+
+
+
+@media(max-width:992px){
+
+    .education-work{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:768px){
+    .resume{
+        margin: 80px 50px;
+    }
+}
+
+
+
+@media(max-width:480px){
+    .resume{
+        margin: 20px 15px;
+        padding-top: 50px;
+    }
+
+    .edu-details{
+        font-size: 0.9em;
+    }
+
+
+    
 }

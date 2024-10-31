@@ -17,7 +17,7 @@ const MyWork = () => {
                         <img key={index} src={work.work_img} alt="" />
                         <div className="name-icon">
                             <p key={index}>{work.work_name}</p>
-                            <p>
+                            <p className='logos-container'>
                                 {work.worked_with.map((logo, logoindex) => {
                                     return <img className='tech-logos' key={logoindex} src={logo} alt="" />;
                                 })}

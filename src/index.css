@@ -11,7 +11,7 @@ body{
 
 }
 
-.background-img{
+/* .background-img{
   background-image: url("../src/assets/home-banner.jpg");
   background-size: cover;
   background-position: center;
@@ -30,4 +30,4 @@ body{
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.735); 
   z-index: -1; 
-}
+} */

@@ -45,31 +45,31 @@ const Navbar = () => {
         <span className='nav-mob-close' onClick={closeMenu}><i class="fa-solid fa-xmark"></i></span>
         <li>
           <AnchorLink className='navbar-anchor-link' href='#home'>
-            <p onClick={() => setMenu("home")}>Home</p>
+            <span onClick={() => setMenu("home")}>Home</span>
           </AnchorLink>
           {menu === "home" ? <div className="underline"></div> : null}
         </li>
         <li>
           <AnchorLink offset={50} className='navbar-anchor-link' href='#about'>
-            <p onClick={() => setMenu("about")}>About</p>
+            <span onClick={() => setMenu("about")}>About</span>
           </AnchorLink>
           {menu === "about" ? <div className="underline"></div> : null}
         </li>
         <li>
           <AnchorLink offset={50} className='navbar-anchor-link' href='#resume'>
-            <p onClick={() => setMenu("resume")}>Resume</p>
+            <span onClick={() => setMenu("resume")}>Resume</span>
           </AnchorLink>
           {menu === "resume" ? <div className="underline"></div> : null}
         </li>
         <li>
           <AnchorLink offset={50} className='navbar-anchor-link' href='#work'>
-            <p onClick={() => setMenu("work")}>Work</p>
+            <span onClick={() => setMenu("work")}>Work</span>
           </AnchorLink>
           {menu === "work" ? <div className="underline"></div> : null}
         </li>
         <li>
           <AnchorLink offset={50} className='navbar-anchor-link' href='#contact'>
-            <p onClick={() => setMenu("contact")}>Contact</p>
+            <span onClick={() => setMenu("contact")}>Contact</span>
           </AnchorLink>
           {menu === "contact" ? <div className="underline"></div> : null}
         </li>
