@@ -24,7 +24,7 @@ const MyWork = () => {
                             </p>
                         </div>
                         <div className="demo-git">
-                            <p>DEMO</p>                            
+                            <a href={work.demo_link}><p key={index}>DEMO</p></a>                           
                             <a href={work.git_link}><p key={index}>GIT</p></a>
                         </div>
                     </div>

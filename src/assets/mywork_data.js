@@ -16,7 +16,8 @@ const mywork_data=[
         work_name:"FashionFoot",
         work_img:img1,
         worked_with:[python, django],
-        git_link:"https://fashionfoot-production.up.railway.app/"
+        demo_link:"https://fashionfoot-production.up.railway.app/",
+        git_link:"https://github.com/shiva-sankar-dev/fashionfoot"
     },
 
     {
@@ -24,7 +25,8 @@ const mywork_data=[
         work_name:"MOVIEVERSE",
         work_img:img2,
         worked_with:[python, django],
-        git_link:"https://movieverse.up.railway.app/"
+        demo_link:"https://movieverse.up.railway.app/",
+        git_link:"https://github.com/shiva-sankar-dev/movieverse"
 
     },
 
@@ -33,7 +35,8 @@ const mywork_data=[
         work_name:"My Portfolio",
         work_img:img3,
         worked_with:[html, css, react_logo],
-        git_link:"https://github.com/shiva-sankar-dev/portfolio-react"
+        demo_link:"https://shiva-sankar-dev.github.io/react-portfolio/",
+        git_link:"https://github.com/shiva-sankar-dev/react-portfolio"
     }
 
 ]
