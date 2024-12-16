@@ -34,9 +34,9 @@ const mywork_data=[
         w_no:3,
         work_name:"My Portfolio",
         work_img:img3,
-        worked_with:[html, css, react_logo],
-        demo_link:"https://shiva-sankar-dev.github.io/react-portfolio/",
-        git_link:"https://github.com/shiva-sankar-dev/react-portfolio"
+        worked_with:[html, css,js, python, django],
+        demo_link:"",
+        git_link:"https://github.com/shiva-sankar-dev/bookmark"
     }
 
 ]
