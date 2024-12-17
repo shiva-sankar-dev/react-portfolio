@@ -32,7 +32,7 @@ const mywork_data=[
 
     {
         w_no:3,
-        work_name:"My Portfolio",
+        work_name:"BOOKMARK",
         work_img:img3,
         worked_with:[html, css,js, python, django],
         demo_link:"",
